@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kajun Peps</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #171717;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 18px 50px;
+  }
+  header {
+    text-align: center;
+    padding: 18px 10px 28px;
+  }
+  .logo {
+    max-width: 210px;
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 14px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #5b2a86;
+  }
+  .subtitle {
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .notice {
+    margin: 0 auto 24px;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+  }
+  .list {
+    display: grid;
+    gap: 8px;
+  }
+  .item {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #fff;
+  }
+  .name {
+    font-weight: 800;
+    letter-spacing: .4px;
+    margin-bottom: 7px;
+  }
+  .sizes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .size {
+    background: #f3eef7;
+    color: #452064;
+    border-radius: 7px;
+    padding: 5px 9px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 11px;
+    color: #777;
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 18px 12px 40px; }
+    h1 { font-size: 25px; }
+    .item { padding: 11px 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <!-- Replace logo.png with your existing logo filename if needed -->
+    <img class="logo" src="logo.png" alt="Kajun Peps Logo"
+         onerror="this.style.display='none'">
+    <h1>PEPS PRODUCT LIST</h1>
+    <div class="subtitle">KAJUN PEPS</div>
+  </header>
+
+  <div class="notice">
+    Product information only. No pricing, payment, or ordering information is displayed on this page.
+  </div>
+
+  <main class="list">
+    <div class="item"><div class="name">5 AMINOS</div><div class="sizes"><span class="size">5mg</span><span class="size">50mg</span></div></div>
+    <div class="item"><div class="name">BPC-157 / TB500</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">CAGRILINTIDE</div><div class="sizes"><span class="size">5mg</span></div></div>
+    <div class="item"><div class="name">CJC-1295</div><div class="sizes"><span class="size">5mg</span></div></div>
+    <div class="item"><div class="name">DSIP</div><div class="sizes"><span class="size">5mg</span></div></div>
+    <div class="item"><div class="name">FAT BLASTER</div><div class="sizes"><span class="size">500mg</span></div></div>
+    <div class="item"><div class="name">GHK-CU</div><div class="sizes"><span class="size">50mg</span><span class="size">100mg</span></div></div>
+    <div class="item"><div class="name">GLOW</div><div class="sizes"><span class="size">70mg</span></div></div>
+    <div class="item"><div class="name">GLUTATHIONE</div><div class="sizes"><span class="size">1500mg</span></div></div>
+    <div class="item"><div class="name">IPAMORELIN</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">KLOW</div><div class="sizes"><span class="size">80mg</span></div></div>
+    <div class="item"><div class="name">KPV</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">MOTS-C</div><div class="sizes"><span class="size">10mg</span><span class="size">40mg</span></div></div>
+    <div class="item"><div class="name">MT-1</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">MT-2</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">NAD+</div><div class="sizes"><span class="size">500mg</span><span class="size">1000mg</span></div></div>
+    <div class="item"><div class="name">RETATRUTIDE</div><div class="sizes"><span class="size">10mg</span><span class="size">20mg</span></div></div>
+    <div class="item"><div class="name">SEMAX</div><div class="sizes"><span class="size">5mg</span></div></div>
+    <div class="item"><div class="name">SELANK</div><div class="sizes"><span class="size">5mg</span></div></div>
+    <div class="item"><div class="name">SS-31</div><div class="sizes"><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">TESAMORELIN</div><div class="sizes"><span class="size">5mg</span><span class="size">10mg</span></div></div>
+    <div class="item"><div class="name">TESTOSTERONE CYPIONATE</div><div class="sizes"><span class="size">250mg</span></div></div>
+    <div class="item"><div class="name">TIRZEPATIDE</div><div class="sizes"><span class="size">20mg</span></div></div>
+  </main>
+
+  <footer>© Kajun Peps</footer>
+</div>
+</body>
+</html>
